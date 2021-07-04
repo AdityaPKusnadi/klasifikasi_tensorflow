@@ -49,7 +49,7 @@ num_classes = len(class_names)
 model = keras.models.load_model(data_model)
 
 #Mengambil data gambar yang akan ditest klasifikasinya
-img_pred_dir = BASE_DIR + '/prediction/1.png'
+img_pred_dir = BASE_DIR + '/prediction/Cochoa azurea_3.jpeg'
 
 img_pred = keras.preprocessing.image.load_img(
     img_pred_dir, target_size=(size, size)

@@ -18,7 +18,7 @@ dataset_dir = BASE_DIR + "/dataset"
 data_dir = pathlib.Path(dataset_dir)
 
 #Menentukan batch size dan size gambar
-batch_size = 32
+batch_size = 100
 size = 180
 
 #Memecah data untuk digunakan sebagai data latih sebanyak 80%
@@ -84,7 +84,7 @@ model.compile(
 model.summary()
 
 #Menentukan jumlah epoch, satu epoch adalah ketika seluruh dataset terlewati baik forward ataupun backward melalui jaringan syaraf 
-epochs = 1000
+epochs = 10
 
 #Proses training
 history = model.fit(
@@ -157,7 +157,7 @@ model.compile(
 model.summary()
 
 #Menentukan jumlah epoch
-epochs = 1000
+epochs = 10
 history = model.fit(
     train_dataset,
     validation_data=val_dataset,
