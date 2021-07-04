@@ -1,10 +1,10 @@
 .DS_Store
 
-dataset/Cochoa_azurea/*
-dataset/Ficedula_hyperythra/*
-dataset/Nisaetus_bartelsi/*
-dataset/Pteruthius_flaviscapis/*
-dataset/Rhipidura_phoenicura/*
+
+
+
+
+
 
 application/cache/*
 !application/cache/index.html
